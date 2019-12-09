@@ -1,0 +1,30 @@
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Prajkta Jagtap</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .main {
+        width: 50%;
+        margin: 50px auto;
+    }
+    .form-control{
+        width:20%
+    }
+    </style>
+</head>
+<body  class="body">
+    <div class="container">
+        <form action = "http://localhost:5000/result" method = "POST">
+         	<div class="form-group" style="margin-top: 15rem; padding-left: 25rem;">
+          		<input type="text" class="form-control" placeholder="Search" name = "textSearch" style="float:left; width: 50%;">
+				<button type="submit" class="btn btn-default" value = "submit" class="btn btn-default">Submit</button>
+        	</div>
+            <div><H1>NO RESULT FOUND</H1></div>
+      </form>
+    </div>
+</body>
